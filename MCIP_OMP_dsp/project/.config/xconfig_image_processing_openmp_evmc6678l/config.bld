@@ -1,0 +1,9 @@
+/* THIS IS A GENERATED FILE -- DO NOT EDIT */
+/* configuro was passed a config.bld file */
+xdc.includeFile("E:/CCSv6/image_processing_openmp_evmc6678l/platform/config.bld");
+/* configuro was passed the target's name explicitly */
+var target  = xdc.module('ti.targets.elf.C66');
+target.ccOpts.prefix = "--gcc " + target.ccOpts.prefix;
+Build.targets = [target];
+/* configuro was passed the target's rootDir explicitly */
+Build.targets[0].rootDir = 'D:/Texas/CCS/ccsv6/tools/compiler/c6000_7.4.7';

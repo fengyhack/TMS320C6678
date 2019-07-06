@@ -1,0 +1,12 @@
+package.xdc
+package.xs
+package/xconfig_mcip_slaveA.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.xdc-y30
+package/xconfig_mcip_slaveA.java
+package/xconfig_mcip_slaveA.class
+package/package_xconfig_mcip_slaveA.c
+package/package.defs.h
+package/xconfig_mcip_slaveA.ccs

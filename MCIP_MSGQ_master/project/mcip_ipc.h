@@ -1,0 +1,24 @@
+#ifndef IMAGE_PROCESSING_H
+#define IMAGE_PROCESSING_H
+
+char* MCIP_HEAP_NAME = "MCIP_HEAP";
+
+const unsigned short MCIP_HEAP_ID = 0;
+
+const int NUM_OF_CORES = 8;
+
+char*  MASTER_MSGQ_NAME = "MSGQ_MASTER";
+
+char*  SLAVE_MSGQ_NAMES[8] =
+{
+		"MSGQ_SLAVE0",
+		"MSGQ_SLAVE1",
+		"MSGQ_SLAVE2",
+		"MSGQ_SLAVE3",
+		"MSGQ_SLAVE4",
+		"MSGQ_SLAVE5",
+		"MSGQ_SLAVE6",
+		"MSGQ_SLAVE7"
+};
+
+#endif /* IMAGE_PROCESSING_H */
